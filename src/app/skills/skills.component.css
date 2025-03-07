@@ -1,15 +1,24 @@
+.tittle-skill{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #000;
+}
+
 .container > .card > .face.face1{
     position: relative;
-    background-color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 1;
-    transform: translateY(100px);
+    border-radius: 5px;
+    transform: translateY(50px);
+    transition: 0.5s ease;
     }
 
     .container > .card:hover > .face.face1 {
-        background-color: #ff0057;
+        background-color: #893941;
         transform: translateY(0px);
     }
 
@@ -25,8 +34,10 @@
         align-items: center;
         padding: 20px;
         box-sizing: border-box;
-        box-shadow: 0 20px 50px rgb(0, 0, 0, 0.8);
-        transform: translateY(-100px);
+        box-shadow: 0 20px 50px rgb(0, 0, 0, 0.2);
+        transform: translateY(-50px);
+        border-radius: 5px;
+
     }
 
     .container > .card:hover > .face.face2{
