@@ -31,7 +31,7 @@
 }
 
 .image{
-    background-image: url("../assets/1.jpg");
+    background-image: url("../assets/images/1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
