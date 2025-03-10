@@ -1,0 +1,55 @@
+.general-container {
+    margin-bottom: 5rem;
+    overflow-x: hidden;
+    padding: 0 16rem 0 16rem;
+  }
+
+.card{
+    display: flex;
+    background-color: #fff;
+    width: 16rem;
+    box-sizing: border-box;
+    box-shadow: 0 10px 10px rgb(0, 0, 0, 0.2);
+    flex-direction: column;
+    margin: 0px 15px 0px 15px ;
+}
+ 
+.image-proyects{
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ width: 16rem;
+ height: 10rem;
+ border-radius: 5px 5px 0px 0px;
+}
+
+.content {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content span {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.slick-slide {
+  width: 16rem !important; 
+  margin: 5rem;
+}
+/*
+.slick-list {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+} 
+
+ngx-slick-carousel {
+  display: block;
+  width: 100%; 
+  max-width: 100%; 
+}
+*/

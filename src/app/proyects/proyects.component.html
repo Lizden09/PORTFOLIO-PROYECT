@@ -1,1 +1,21 @@
-<p>proyects works!</p>
+<!-- <div class="general-container" style="display: flex; justify-content: space-evenly;">
+    <div class="card">
+        <div class="image-proyects" ngSkipHydration></div>
+        <div class="content">
+            <span>Dashboard</span>
+        </div>
+    </div>
+</div> -->
+<div class="general-container" id="proyectos">
+  <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
+    @for (item of slides; track item) {
+      <div ngxSlickItem class="card">
+        <div class="image-proyects" [ngStyle]="{'background-image': 'url(' + item.image + ')'}"></div>
+        <div class="content">
+          <span>{{ item.title }}</span>
+        </div>
+      </div>
+    }
+  </ngx-slick-carousel>
+</div>
+
